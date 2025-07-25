@@ -1,0 +1,21 @@
+.class,
+.class-cool {
+    background-color: rgb(255 0 0 / 0.3);
+    font-family:Verdana, "DejaVu sans", sans-serif;
+}
+
+.class-cool {
+    font-size: 24px;
+}
+
+#cool {
+    color: rgb(0 0 255);
+    font-size: 36px;
+}
+
+#cooler {
+    background-color: rgb( 0 255 0/0.3);
+    font-size: 24px;
+    font-weight: bold;
+
+}
