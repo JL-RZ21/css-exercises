@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* change flex on body */
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -23,4 +26,85 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  text-emphasis-color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* pushes one list left, the other right */
+  align-items: center;
+  /* vertically centers items */
+  padding: 10px;
+}
+
+.header ul {
+  display: flex;
+  /* makes the list horizontal */
+  list-style: none;
+  /* removes bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li {
+  margin: 0 10px;
+  /* spacing between list items */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 10px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  /* horizontal */
+  align-items: center;
+  /* vertical */
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* pushes one list left, the other right */
+  align-items: center;
+  /* vertically centers items */
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.footer ul {
+  display: flex;
+  /* makes the list horizontal */
+  list-style: none;
+  /* removes bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  margin: 0 10px;
+  /* spacing between list items */
 }
